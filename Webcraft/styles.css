@@ -1,0 +1,123 @@
+    body {
+        font-family: 'Times New Roman';
+        font-size: 12pt;
+        overflow: hidden;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .wrapper
+    {
+        margin-top:100px;
+        margin-left:50px ;
+        height : 100vh ;
+        overflow-y: auto;
+    }
+
+    .heading {
+        margin-top: 0.35pt;
+        margin-right: 248.15pt;
+        text-indent: 1.5pt;
+        text-align: justify;
+        line-height: 53.95pt;
+        font-family: Calibri;
+        font-size: 59pt;
+    }
+
+    .subheading {
+        margin-top: 34.6pt;
+        margin-right: 216.2pt;
+        text-indent: 2.25pt;
+        line-height: 35.25pt;
+        font-family: Calibri;
+        font-size: 33pt;
+        color:rgba(101, 97, 97, 0.912);
+    }
+
+    .icons {
+        margin-top: 70pt;
+        text-align: justify;
+        line-height: 25.6pt;
+        font-family: Calibri;
+        font-size: 21pt;
+    }
+
+    .icons-description {
+        margin-top: 180pt;
+        margin-left: 36.75pt;
+        text-align: justify;
+        line-height: 25.6pt;
+        font-family: Calibri;
+        font-size: 21pt;
+        word-spacing: 120px;
+        color: rgb(114, 113, 113);
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(250, 106, 54, 0.984);
+        padding: 20px 0; /* Adjust padding as needed */
+        text-align: center;
+        color: white;
+    }
+
+    .Logo {
+        position: relative;
+        width: 100vw; /* Set to the width of the viewport */
+        height: 100vh; /* Set to the height of the viewport */
+        
+    }
+    
+    #logo {
+        position: fixed;
+        width: 235px; /* Initial width of the image */
+        height: auto; /* To maintain aspect ratio */
+        top:190px; /* Initial top position */
+        left: 80%; /* Initial left position */
+        image-rendering: pixelated;
+        transform: translate(-50%, -50%); /* Center the image horizontally and vertically */
+    }
+
+
+    .github_star i{             /*star*/
+        position: absolute;
+        left:525px;
+        top:595px ;
+        font-size: 30px;
+        
+  }
+
+  .github_fork i{              /*Fork*/
+    position: absolute;
+    right: 665px;
+    top:595px ;
+    font-size: 30px;
+}
+  .github i{                    /*Github Logo*/
+    position: absolute;
+    right:100px;
+    top:595px ;
+    font-size: 40px;
+  }
+
+  .github_issues{                 /*Issues*/
+    position: absolute;
+    left: 350px;
+    top:595px ;
+    font-size:30px;
+    
+
+  }
+
+  .github_contri {                  /*Contributors*/
+    position: absolute;
+    left: 70px;
+    top: 598px ;
+    font-size:30px;
+    
+  }
